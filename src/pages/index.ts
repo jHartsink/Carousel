@@ -1,4 +1,5 @@
 import type { AppTemplateProps } from '../App.template';
+import { FirstCarouselMock } from '@/components/HTML/FirstCarousel.mock';
 
 export const data = (): AppTemplateProps => ({
   layout: {
@@ -6,10 +7,8 @@ export const data = (): AppTemplateProps => ({
     props: {
       blocks: [
         {
-          name: 'toggle-expand',
-          props: {
-            isExpanded: false,
-          },
+          name: 'firstCarousel',
+          props: FirstCarouselMock,
         },
       ],
     },
