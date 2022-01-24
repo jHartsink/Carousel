@@ -1,7 +1,7 @@
 import { defineComponent, lazy } from '@muban/muban';
 import { ImageTest } from '../components/image-test/ImageTest';
 import { VideoTest } from '../components/video-test/VideoTest';
-import { FirstCarousel } from '@/components/HTML/firstCarousel';
+import { Carousel } from '@/components/Carousel/Carousel';
 
 export const BlockRenderer = defineComponent({
   name: 'block-renderer',
@@ -12,7 +12,7 @@ export const BlockRenderer = defineComponent({
     ),
     ImageTest,
     VideoTest,
-    FirstCarousel,
+    Carousel,
   ],
   setup() {
     return [];

@@ -1,0 +1,14 @@
+.carousel {
+  overflow: hidden!important;
+  .carousel-wrapper {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}

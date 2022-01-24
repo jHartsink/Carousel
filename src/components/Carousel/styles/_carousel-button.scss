@@ -1,0 +1,30 @@
+.carousel-button {
+  position: absolute;
+  z-index: 2;
+  background: none;
+  border: none;
+  margin-top: 20%;
+  font-size: 2rem;
+  color: rgba($colorPrimaryTheme, 0.5);
+  cursor: pointer;
+  border-radius: 0.15rem;
+  padding: 0 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+
+  &:hover,
+  &:focus {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  &:focus {
+    outline: 1px solid black;
+  }
+
+  &.previous {
+    left: 1rem;
+  }
+  &.next {
+    right: 1rem;
+  }
+}

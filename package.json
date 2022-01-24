@@ -28,6 +28,7 @@
     "not dead"
   ],
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@mediamonks/eslint-config-base": "^2.0.0-alpha.4",
     "@mediamonks/monck": "^1.0.1",
     "@muban/muban": "^1.0.0-alpha.28",
